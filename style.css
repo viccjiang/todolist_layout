@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/earlyaccess/notosanstc.css");
+@import url("https://fonts.googleapis.com/css?family=Baloo+Tamma+2:600, 700");
+
+body {
+  min-height: 100vh;
+  background: #eee;
+  display: flex;
+  color: #333;
+  background-image: linear-gradient(
+    175deg,
+    #ffd370 2%,
+    #ffd370 46%,
+    #fff 46%,
+    #fff 100%,
+    #e8e8e8 100%
+  );
+}
+
+.card-footer a {
+  color: #9f9a91;
+  text-decoration: none;
+}
+.card-footer a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  font-family: "Baloo Tamma 2";
+  letter-spacing: 0.5rem;
+  font-weight: bold;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 12px;
+  max-width: 600px;
+  
+}
+
+.btn {
+  text-align: center;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:hover{
+  text-align: center;
+  background: #292929;
+  color: #fff;
+  text-decoration: none;
+}

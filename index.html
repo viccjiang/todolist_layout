@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+        <div id="app" class="container my-3">
+                <h1>TODO LIST</h1>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                  </div>
+                  
+                
+                  <div class="input-group mb-1">
+                     <input type="text" class="form-control" placeholder="請輸入待辦事項" aria-label="Recipient's username" id="newTodo">
+                     <button class="btn btn-outline-secondary" type="button" id="addTodo">+</button>
+                  </div>
+                  
+                </div>
+                <div class="card text-center">
+                  <ul class="list-group list-group-flush text-left" id="todoList">
+                  </ul>
+                  <div class="card-footer d-flex justify-content-between">
+                    <span>有 <span id="taskCount">0</span> 筆代辦事項</span>
+                    <a href="#" id="clearTask">清除所有代辦事項</a>
+                  </div>
+                </div>
+              </div>
+    <script src="/all.js"></script>
+</body>
+</html>
